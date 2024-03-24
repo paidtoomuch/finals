@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\entity\entity.cpp" />
+    <ClCompile Include="dependencies\framework\framework.cpp" />
+    <ClCompile Include="core\features\aimbot\aimbot.cpp" />
+    <ClCompile Include="core\features\visual\visual.cpp" />
+    <ClCompile Include="core\interface\interface.cpp" />
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="core\engine\engine.cpp" />
+    <ClCompile Include="core\render\render.cpp" />
+    <ClCompile Include="core\sdk\settings\settings.cpp" />
+    <ClCompile Include="core\sdk\utilities\utilities.cpp" />
+    <ClCompile Include="dependencies\stub\stub.cpp" />
+    <ClCompile Include="core\sdk\vars\vars.cpp" />
+    <ClCompile Include="core\hooks\hooks.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\entity\entity.hpp" />
+    <ClInclude Include="core\sdk\entities\entities.hpp" />
+    <ClInclude Include="core\sdk\entities\enumerations.hpp" />
+    <ClInclude Include="core\sdk\sdk.hpp" />
+    <ClInclude Include="dependencies\framework\framework.hpp" />
+    <ClInclude Include="core\features\aimbot\aimbot.hpp" />
+    <ClInclude Include="core\features\visual\visual.hpp" />
+    <ClInclude Include="core\interface\interface.hpp" />
+    <ClInclude Include="core\sdk\crt\crt.h" />
+    <ClInclude Include="impl\Draw.hpp" />
+    <ClInclude Include="core\engine\engine.hpp" />
+    <ClInclude Include="core\render\render.hpp" />
+    <ClInclude Include="core\includes.hpp" />
+    <ClInclude Include="core\imports.hpp" />
+    <ClInclude Include="impl\Overlay.hpp" />
+    <ClInclude Include="core\sdk\settings\settings.hpp" />
+    <ClInclude Include="core\sdk\utilities\utilities.hpp" />
+    <ClInclude Include="core\sdk\math\vector.hpp" />
+    <ClInclude Include="core\hash.hpp" />
+    <ClInclude Include="dependencies\stub\stub.hpp" />
+    <ClInclude Include="core\sdk\crt\scanner.h" />
+    <ClInclude Include="core\sdk\vars\vars.hpp" />
+    <ClInclude Include="dependencies\memory\memory.hpp" />
+    <ClInclude Include="core\hooks\hooks.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="dependencies\kernel\vortex.xaml" />
+    <Page Include="dependencies\vortex.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="dependencies\stub\spoofer_stub.masm" />
+    <MASM Include="dependencies\memory\memory_stub.asm" />
+  </ItemGroup>
+</Project>
